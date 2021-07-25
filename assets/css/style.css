@@ -104,8 +104,16 @@ header > article {
     content: url(../img/ilustracion_people.png);
     position: absolute;
     width: 55%;
+    margin-top: -2%;
     top: 0;
     right: 0;
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+    0% { transform: translateX(50px);} 
+    50% { transform: translateY(50px);} 
+    100% { transform: translateX(50px);} 
 }
 
 /* section imageSet */
