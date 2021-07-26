@@ -12,6 +12,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -107,13 +108,13 @@ header > article {
     margin-top: -2%;
     top: 0;
     right: 0;
-    animation: move 5s infinite;
+    animation: move 5s infinite ;
 }
 
 @keyframes move {
-    0% { transform: translateX(50px);} 
-    50% { transform: translateY(50px);} 
-    100% { transform: translateX(50px);} 
+    0% { transform: translateX(5%);} 
+    50% { transform: translateY(5%);} 
+    100% { transform: translateX(5%);} 
 }
 
 /* section imageSet */
